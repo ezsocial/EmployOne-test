@@ -9,7 +9,7 @@ iOS photo picker [here](https://github.com/unsplash/unsplash-photopicker-ios).
 
 ![Unsplash Photo Picker for Android preview](https://github.com/unsplash/unsplash-photopicker-android/blob/dev/unsplash-photo-picker-android.png "Unsplash Photo Picker for Android")
 
-![Photo Picker recyclerView for Android preview](https://github.com/ezsocial/recyclerviewUnsplash/screens/Screenshot_1618323059.png " Photo Picker for Android")
+![Photo Picker recyclerView for Android](https://github.com/ezsocial/recyclerviewUnsplash/screens/Screenshot_1618323059.png " Photo Picker for Android")
 
 ## Table of Contents
 
