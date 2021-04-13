@@ -14,7 +14,6 @@ iOS photo picker [here](https://github.com/unsplash/unsplash-photopicker-ios).
 ![Photo Picker recyclerView for Android](https://github.com/ezsocial/recyclerviewUnsplash/blob/main/screens/Screenshot_1618323054.png "PhotoPicker for Android")
 ![Photo Picker recyclerView for Android](https://github.com/ezsocial/recyclerviewUnsplash/blob/main/screens/Screenshot_1618323059.png "PhotoPicker for Android")
 ![Photo Picker recyclerView for Android](https://github.com/ezsocial/recyclerviewUnsplash/blob/main/screens/Screenshot_1618335909.png "PhotoPicker for Android")
-![Photo Picker recyclerView for Android](https://github.com/ezsocial/recyclerviewUnsplash/blob/main/screens/Screenshot_1618335911.png "PhotoPicker for Android")
 
 ## Table of Contents
 
