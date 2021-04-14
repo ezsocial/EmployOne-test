@@ -126,7 +126,7 @@ main_recycler_view.adapter = mAdapter
 
 ### Create sqlite database and use 
 
-Your calling activity must use a `startActivityForResult` method to be able to retrieve the selected `UnsplashPhoto`:
+Your calling Sqlitet library to be able to save locallye and works offline the selected `images`:
 
 ```java
 public class DBHelper extends SQLiteOpenHelper {
