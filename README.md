@@ -90,7 +90,7 @@ startActivityForResult(
             )
 ```
 
-### Using the results
+### Using the results by this HappyMonday test *Unsplash and PhotoView*
 
 Your calling activity must use a `startActivityForResult` method to be able to retrieve the selected `UnsplashPhoto`:
 
@@ -102,6 +102,20 @@ override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) 
             // use your photos here
         }
 }
+
+Your calling recycler_view must use a `mAdapter` method to be able to retrieve the selected `UnsplashPhoto`:
+
+main_recycler_view.adapter = mAdapter
+        // on the pick button click, we start the library picker activity
+        // we are expecting a result from it so we start it for result
+        main_pick_button.setOnClickListener {
+            startActivityForResult(
+                    UnsplashPickerActivity.getStartingIntent(
+                            this,
+                            !main_single_radio_button.isChecked
+                    ), REQUEST_CODE
+            )
+        }
 ```
 
 See [UnsplashPhoto.kt](https://github.com/unsplash/unsplash-photopicker-android/blob/master/photopicker/src/main/java/com/unsplash/pickerandroid/photopicker/data/UnsplashPhoto.kt) for more details.
