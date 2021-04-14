@@ -96,6 +96,15 @@ class MainUnsplashActivity : AppCompatActivity() {
                 .create()
 
         dialog.show()*/
+        
+        findViewById<FloatingActionButton>(R.id.fabUnsplash).setOnClickListener { view ->
+            Snackbar.make(view, "Unsplash DEMO", Snackbar.LENGTH_LONG)
+                .setAction("Action", null).show()
+            val intent = Intent(this@MainUnsplashActivity, MainActivity::class.java)
+                .setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP)
+            this@MainUnsplashActivity.startActivity(intent)
+
+        }
     }
 
     // here we are receiving the result from the picker activity
