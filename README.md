@@ -7,6 +7,8 @@ UnsplashPhotoPicker is an Android UI component that allows you to quickly search
 PhotoPicker is and Android UI to allow view images download from Unplash and save under sqlite to work offline.
 iOS photo picker [here](https://github.com/unsplash/unsplash-photopicker-ios).
 
+You can DOWLOAD "pruebatecnia.apk" to Show how works our test, save images locally to work offline, when select single or multiples images.
+
 ![PhotoPicker and Photo Picker recyclerView for Android](https://github.com/ezsocial/recyclerviewUnsplash/blob/main/screens/Screen00.jpg "PhotoPicker for Android")
 
 ## Table of Contents
