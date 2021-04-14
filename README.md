@@ -109,8 +109,13 @@ override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) 
         }
 }
 
+
+```
+
 Your calling recycler_view must use a `mAdapter` method to be able to retrieve the selected `UnsplashPhoto`:
 
+
+``` java
 main_recycler_view.adapter = mAdapter
         // on the pick button click, we start the library picker activity
         // we are expecting a result from it so we start it for result
